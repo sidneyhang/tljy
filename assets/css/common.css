@@ -1,0 +1,28 @@
+html {
+    overflow-x: hidden;
+    height: 100%;
+}
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background-color: #DFDFDB;
+}
+
+@media screen and (min-width: 310px) and (max-width: 320px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 366px) and (max-width: 375px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 411px) and (max-width: 414px) {
+    html {
+        font-size: 18px;
+    }
+}

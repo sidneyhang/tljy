@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    background: url(../images/apply/background.png) no-repeat;
+    background-size: cover;
+    margin: 0 0;
+}
+
+input::-webkit-input-placeholder {
+    color: #3C2D8A;
+    font-size: 0.8125rem;
+}
+
+.circle {
+    width: 0.9375rem;
+    height: 0.9375rem;
+    border: 0.0625rem #298851 solid;
+    border-radius: 0.46875rem;
+}
+
+.form-control {
+    display: flex;
+    align-items: center;
+    margin-top: 0.3rem;
+}
+
+.form-control input {
+    outline: none;
+    width: 14.375rem;
+    height: 1.5625rem;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.4375rem;
+    border-bottom: solid 0.0625rem #3C2D8A;
+    color: #3C2D8A;
+}
+
+button {
+    background: url(../images/apply/3.png);
+    background-size: cover;
+    width: 9.5rem;
+    height: 1.875rem;
+    border: none;
+    padding: 0 0;
+}
+
+.container {
+    padding: 0 1.625rem;
+}
+
+.strip {
+    width: 20.125rem;
+    height: 2.5rem;
+    background: url(../images/apply/1.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.input-box {
+    width: 18.0625rem;
+    height: 15.5rem;
+    position: absolute;
+    top: 1.25rem;
+    background: url(../images/apply/2.png);
+    background-size: cover;
+    overflow: hidden
+}
+
+.input-form {
+    margin-top: 0.5rem;
+    padding-left: 0.6875rem;
+}
+
+.submit-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.5rem;
+}
+
+.submit-box button {
+    color: #3C2D8A;
+}
+
+.form-control select {
+    outline: none;
+    width: 14.375rem;
+    height: 1.5625rem;
+    background-color: transparent;
+    border: none;
+    margin-left: 0.4375rem;
+    border-bottom: solid 0.0625rem #3C2D8A;
+    color: #3C2D8A;
+}
